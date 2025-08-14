@@ -1,0 +1,31 @@
+{
+  "name": "clausewise-legal-document-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.5.2",
+    "@tanstack/react-query": "^5.51.11",
+    "react-router-dom": "^6.26.1",
+    "lucide-react": "^0.469.0",
+    "@visx/graph": "^3.12.0",
+    "@visx/hierarchy": "^3.12.0",
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.3",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.45",
+    "autoprefixer": "^10.4.20"
+  }
+}

@@ -1,0 +1,156 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\pdfgentounicode=1
+
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \emph{#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ankitha B} \\ \vspace{1pt}
+    \small +91 9632855883 $|$ \href{mailto:ankithab1718@gmail.com}{\underline{ankithab1718@gmail.com}} $|$
+    \href{https://linkedin.com/in/ankithab}{\underline{linkedin.com/in/ankithab}} $|$
+    \href{https://github.com/ankithab034}{\underline{github.com/ankithab034}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bapuji Institute of Engineering \& Technology}{Davanagere, Karnataka}
+    {B.E. in Computer Science \& Engineering, CGPA: 8.71 (79.60\%)}{2022 -- 2026}
+  \resumeSubheading
+    {S.T.J Composite PU College}{Davanagere, Karnataka}
+    {12th Science, Percentage: 95.16\%}{2020 -- 2022}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {Blockchain-based Certificate Verification System}{Solidity, Web3.js, Ethereum}
+    \resumeItemListStart
+      \textbullet \hspace{0.5 cm}{Implemented a decentralized certificate verification system using Ethereum smart contracts.}
+     \hspace{2 cm} \textbullet\hspace{0.5 cm}{Reduced reliance on central authorities and slashed verification time by 60\%.}
+       \hspace{5 cm} \textbullet\hspace{0.5 cm}{Improved accessibility for institutions and employers verifying academic records.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Expense Tracker System}{Java, Spring Boot}
+    \resumeItemListStart
+      \textbullet\hspace{0.5 cm}{Designed a secure, role-based system for managing expenses with admin and user modules.}
+     \hspace{5 cm} \textbullet\hspace{0.5 cm}{Enabled tracking of over \$500,000 in monthly transactions with 90\% accuracy.}
+      \hspace{5 cm} \textbullet\hspace{0.5 cm}{Integrated authentication and dashboard views for different roles.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Furniture Shop Web App}{PHP, MySQL, Bootstrap}
+    \resumeItemListStart
+     \textbullet\hspace{0.5 cm}{Built an online store featuring product catalogs, user registration, and shopping cart support.}
+      \hspace{5 cm} \textbullet\hspace{0.5 cm}{Achieved 500+ registered users with a fully functional checkout and stock management.}
+      \hspace{5 cm} \textbullet\hspace{0.5 cm}{Used XAMPP stack for local development and testing.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages: } Java, C, SQL.  \\
+    \textbf{Web: } HTML, CSS, JavaScript. \\
+    \textbf{Tools: } PHP, MySQL, GitHub, ClickUp, VS Code, XAMPP\\
+    \textbf{Cloud: } AWS. \\
+    \textbf{Concepts: } Data structures and Algorithms, Machine Learning, Blockchain Technology.
+  }}
+\end{itemize}
+
+%-----------CERTIFICATES-----------
+\section{Certificates}
+\resumeSubHeadingListStart
+  \resumeItem{Programming in Java – NPTEL, IIT Kharagpur (Jan 2023 – Apr 2023)}
+  \resumeItem{Web Development Certification – InterPe}
+  \resumeItem{Participant – State-level CodeClash, GMIT}
+  \resumeItem{Participant – District-level C Quest 2.0, BIET}
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeSubHeadingListStart
+  \resumeItem{Completed DSA with Java and Soft Skills training by Talent Battle at BIET.}
+  \resumeItem{Attended Advanced Data Structures and Competitive Coding workshop at BIET.}
+  \resumeItem{Participated in Data Science and Predictive Modelling workshop.}
+  \resumeItem{Organizer – UniCS Championship League 1.0 at BIET.}
+  \resumeItem{Volunteer – DAVANA College Fest.}
+\resumeSubHeadingListEnd
+
+%-----------ADDITIONAL-----------
+\section{Languages and Hobbies}
+\resumeSubHeadingListStart
+  \resumeItem{\textbf{Languages:} English, Kannada, Hindi}
+  \resumeItem{\textbf{Hobbies:} Singing, Drawing, Cooking}
+\resumeSubHeadingListEnd
+
+\end{document}
+
+
+
+
+
+Acquired fundamental Java programming and soft skills through Talent Battle at BIET, later deployed to troubleshoot and correct 15+ bugs in the checkout system, improving system efficiency.
+
+Completed intensive DSA with Java and Soft Skills training program by Talent Battle at BIET, receiving a top 10% performance ranking within a cohort of 150+ participants.
